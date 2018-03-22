@@ -22,12 +22,12 @@ During startup, Camel will create 3 consumer routes to consume from test1, test2
 
 #### Here are the runtime routes generate from the above code (notice there are 4 routes in total):
 
-![runtime routes](https://raw.githubusercontent.com/bibryam/ofbiz-camel/master/camel-ofbiz-integration.png)
+![runtime routes](https://raw.githubusercontent.com/bibryam/dynamic-consumer/master/runtime-route.png)
 
 
 #### And here are the routes visualizes in Hawtio webconsole deployed to OpenShift
 
-![runtime routes](https://raw.githubusercontent.com/bibryam/ofbiz-camel/master/camel-ofbiz-integration.png)
+![runtime routes visualized](https://raw.githubusercontent.com/bibryam/dynamic-consumer/master/runtime-routes-visual.png)
 
 
 #### Run:
