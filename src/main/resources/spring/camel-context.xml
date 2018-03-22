@@ -5,11 +5,11 @@
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://camel.apache.org/schema/spring       http://camel.apache.org/schema/spring/camel-spring.xsd">
 
-    <camelContext xmlns="http://camel.apache.org/schema/spring">
-        <route>
-            <from uri="direct:processFiles2"/>
-            <log message="found file in xml>>> ${headers.CamelFileName}"/>
-        </route>
-    </camelContext>
+    <!--<camelContext xmlns="http://camel.apache.org/schema/spring">-->
+        <!--<route>-->
+            <!--<from uri="direct:processFiles2"/>-->
+            <!--<log message="found file in xml>>> ${headers.CamelFileName}"/>-->
+        <!--</route>-->
+    <!--</camelContext>-->
 
 </beans>

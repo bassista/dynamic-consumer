@@ -41,8 +41,8 @@ public class Application extends RouteBuilder {
 
         for (String folderName : folderNames) {
             from("file://" + folderName)
-                    .to("direct:processFiles")
-                    .to("direct:processFiles2");
+                    .to("direct:processFiles");
+//                    .to("direct:processFiles2");
         }
 
         from("direct:processFiles")
